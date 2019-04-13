@@ -3,12 +3,12 @@ id: BDocs-index
 title: About BDocs
 sidebar_label: About BDocs
 ---
-Welcome to the Ball Chang's documentation!
+欢迎来到 Ball Chang 的文档！
 
-## Navigation
+## 导航
 
-You can find different topics in the table of contents. On desktop, you should see it in the left sidebar. On mobile, you should see it after pressing an icon with arrows in the top left corner.
+您可以在内容的表中找到不同的主题。 在桌面上，你应该在左侧边栏看到它。 在移动上，当按下左上角箭头图标后，你应该看到它。
 
-## Feedback
+## 反馈
 
-We are always open to [your feedback](https://gitlab.com/zhangbolily/BDocs/issues).
+我们总是欢迎 [您的反馈](https://gitlab.com/zhangbolily/BDocs/issues)。
