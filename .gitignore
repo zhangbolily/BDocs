@@ -5,3 +5,7 @@ website/build/
 \.idea/
 
 website/node_modules/\.cache/
+
+website/translated_docs/
+
+website/i18n/
