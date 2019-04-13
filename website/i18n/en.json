@@ -3,8 +3,32 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "All of Ball Chang's project documentation in one.",
+    "tagline": "All of Ball Chang's project documentation\nin one place.",
     "docs": {
+      "BDocs-index": {
+        "title": "About BDocs",
+        "sidebar_label": "About BDocs"
+      },
+      "BUtils-BTimer": {
+        "title": "BTimer",
+        "sidebar_label": "BTimer"
+      },
+      "BUtils-BTiming": {
+        "title": "BTiming",
+        "sidebar_label": "BTiming"
+      },
+      "BUtils-BUtils": {
+        "title": "BUtils",
+        "sidebar_label": "BUtils"
+      },
+      "BUtils-index": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "C++-project-index": {
+        "title": "Introduction",
+        "sidebar_label": "C++ Projects"
+      },
       "doc1": {
         "title": "Latin-ish",
         "sidebar_label": "Example Page"
@@ -29,9 +53,11 @@
       "Blog": "Blog"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Welcome": "Welcome",
+      "C++ Projects": "C++ Projects",
+      "BUtils": "BUtils",
+      "Second Category": "Second Category",
+      "First Category": "First Category"
     }
   },
   "pages-strings": {

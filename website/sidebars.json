@@ -1,7 +1,8 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
+    "Welcome": ["BDocs-index"],
+    "C++ Projects": ["C++-project-index"],
+    "BUtils": ["BUtils-index", "BUtils-BTiming", "BUtils-BTimer", "BUtils-BUtils"],
     "Second Category": ["doc3"]
   },
   "docs-other": {
