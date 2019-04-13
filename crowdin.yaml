@@ -1,5 +1,5 @@
-project_identifier_env: BDocs
-api_key_env: bde2e6515da343d8cb872bd628cbe984
+project_identifier_env: CROWDIN_DOCUSAURUS_PROJECT_ID
+api_key_env: CROWDIN_DOCUSAURUS_API_KEY
 base_path: "./"
 preserve_hierarchy: true
 

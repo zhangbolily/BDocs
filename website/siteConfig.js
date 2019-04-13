@@ -32,6 +32,7 @@ const siteConfig = {
   // Used for publishing and more
   projectName: 'BDocs',
   organizationName: 'Ball Chang',
+  noIndex: false,
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -80,8 +81,10 @@ const siteConfig = {
     placeholder: 'Search'
   },
 
+  translationRecruitingLink: 'https://crowdin.com/project/BDocs',
+
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Ball Chang`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
