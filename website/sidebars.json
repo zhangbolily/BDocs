@@ -1,11 +1,7 @@
 {
-  "docs": {
+  "BDocs": {
     "Welcome": ["BDocs-index"],
     "C++ Projects": ["C++-project-index"],
-    "BUtils": ["BUtils-index", "BUtils-BTiming", "BUtils-BTimer", "BUtils-BUtils"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "BUtils": ["BUtils-index", "BUtils-BTiming", "BUtils-BTimer", "BUtils-BUtils"]
   }
 }
