@@ -39,7 +39,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'BDocs-index', label: 'Docs'},
+    {doc: 'BDocs-home', label: 'Docs'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
     { search: true },
@@ -88,7 +88,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'atom-one-dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -102,6 +102,10 @@ const siteConfig = {
   // Open Graph and Twitter card images.
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
+
+  enableUpdateTime: true,
+  enableUpdateBy: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,

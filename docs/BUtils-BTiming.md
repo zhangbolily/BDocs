@@ -1,7 +1,6 @@
 ---
 id: BUtils-BTiming
 title: BTiming
-sidebar_label: BTiming
 ---
 
 Defined in header "BUtils/BTiming.h"

@@ -1,7 +1,6 @@
 ---
-id: BUtils-index
+id: BUtils-home
 title: Overview
-sidebar_label: Overview
 ---
 
 Infrastructure of all Ball Chang's projects.

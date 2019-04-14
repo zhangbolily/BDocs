@@ -1,7 +1,6 @@
 ---
 id: BUtils-BUtils
 title: BUtils
-sidebar_label: BUtils
 ---
 
 Defined in header "BUtils/BUtils.h"

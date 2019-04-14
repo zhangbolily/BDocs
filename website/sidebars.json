@@ -1,7 +1,7 @@
 {
   "BDocs": {
-    "Welcome": ["BDocs-index"],
-    "C++ Projects": ["C++-project-index"],
-    "BUtils": ["BUtils-index", "BUtils-BTiming", "BUtils-BTimer", "BUtils-BUtils"]
+    "Welcome": ["BDocs-home"],
+    "C++ Projects": ["C++-project-home"],
+    "BUtils": ["BUtils-home", "BUtils-BTiming", "BUtils-BTimer", "BUtils-BUtils"]
   }
 }
