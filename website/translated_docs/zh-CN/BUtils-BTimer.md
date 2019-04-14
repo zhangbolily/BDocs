@@ -53,7 +53,7 @@ sidebar_label: BTimer
 
 ### `void stop()`
 
-停止此定时器;如果此计时器过期（发生超时），则不产生任何效果。
+停止此定时器；如果此计时器过期（发生超时），则不产生任何效果。
 
 ### `bool isActive() const`
 
