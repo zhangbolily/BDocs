@@ -12,12 +12,13 @@ Class BTiming is for recording time with a minimum precision of 1 microsecond.
 
 ## Types
 
-    enum BTimingStatus {
-        CPUTiming,
-        Timing,
-        Stop
-    };
-    
+```cpp
+enum BTimingStatus {
+    CPUTiming,
+    Timing,
+    Stop
+};
+```
 
 ## Methods
 
