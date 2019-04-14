@@ -12,12 +12,13 @@ title: BTiming
 
 ## 類型
 
-    enum BTimingStatus {
-        CPUTiming,
-        Timing,
-        Stop
-    };
-    
+```cpp
+enum BTimingStatus {
+    CPUTiming,
+    Timing,
+    Stop
+};
+```
 
 ## 方法
 
