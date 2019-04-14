@@ -1,7 +1,17 @@
 {
   "BDocs": {
     "Welcome": ["BDocs-home"],
-    "C++ Projects": ["C++-project-home"],
-    "BUtils": ["BUtils-home", "BUtils-BTiming", "BUtils-BTimer", "BUtils-BUtils"]
+    "C++ Projects": ["C++-project-home",
+      {
+        "type": "subcategory",
+        "label": "All C++ Projects",
+        "ids": ["BUtils-intro"]
+      }],
+    "BUtils": ["BUtils-home",
+      {
+        "type": "subcategory",
+        "label": "All C++ Classes",
+        "ids": ["BUtils-BTiming", "BUtils-BTimer", "BUtils-BUtils"]
+      }]
   }
 }
