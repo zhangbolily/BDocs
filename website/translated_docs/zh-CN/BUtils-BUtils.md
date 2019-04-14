@@ -1,7 +1,6 @@
 ---
 id: BUtils-BUtils
 title: BUtils
-sidebar_label: BUtils
 ---
 定义在头文件 “BUtils/BUtils.h” 中
 
