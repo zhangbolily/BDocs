@@ -12,11 +12,12 @@ Class BTimer provides repetitive and single-shot timers with a minimum precision
 
 ## Types
 
-    enum BTimerStatus {
-        Active,
-        Stop
-    };
-    
+```cpp
+enum BTimerStatus {
+    Active,
+    Stop
+};
+```
 
 ## Methods
 
