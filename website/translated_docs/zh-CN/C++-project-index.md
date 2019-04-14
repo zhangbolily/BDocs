@@ -1,7 +1,6 @@
 ---
-id: C++-project-index
+id: C++-project-home
 title: Introduction
-sidebar_label: C++ Projects
 ---
 ## 代码中的 Mauris
 
