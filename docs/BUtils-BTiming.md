@@ -12,7 +12,7 @@ Class BTiming is for recording time with a minimum precision of 1 microsecond.
 # API
 
 ## Types
-```
+```cpp
 enum BTimingStatus {
     CPUTiming,
     Timing,

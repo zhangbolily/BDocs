@@ -13,7 +13,7 @@ Class BTimer provides repetitive and single-shot timers
 # API
 
 ## Types
-```
+```cpp
 enum BTimerStatus {
     Active,
     Stop
