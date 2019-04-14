@@ -1,7 +1,6 @@
 ---
 id: BUtils-BTimer
 title: BTimer
-sidebar_label: BTimer
 ---
 定义在头文件 “BUtils/BTimer.h” 中
 
