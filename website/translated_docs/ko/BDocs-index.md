@@ -1,7 +1,6 @@
 ---
-id: BDocs-index
+id: BDocs-home
 title: About BDocs
-sidebar_label: About BDocs
 ---
 Welcome to the Ball Chang's documentation!
 
