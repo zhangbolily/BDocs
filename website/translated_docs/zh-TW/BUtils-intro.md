@@ -2,27 +2,27 @@
 id: BUtils-intro
 title: BUtils
 ---
-Infrastructure of all Ball Chang's projects.
+所有 Ball Chang 專案的基礎設施。
 
-## Main Features
+## 主要特點
 
-* Generate UUID (Based on random value).
-* Cross-platform Timing system (Precision 1 us).
-* Cross-platform Timer system (Minimum precision 1 ms).
+* 生成 UUID (基於隨機值)。
+* 跨平臺的計時器系統（精度 1 微秒）。
+* 跨平臺的定時器系統（精度 1 毫秒）。
 
-## Getting Started
+## 開始
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+這些說明將為您提供在本地計算機上啟動和運行的項目副本，以進行開發和測試。
 
-### Prerequisites
+### 先決條件
 
-If you want to use BUtils in your platform, these requirements should be satisfied.
+如果要在您的平台中使用 BUtils，則應滿足這些要求。
 
-    C++ Standard: c++11
-    Build tools: cmake make autoconf automake gcc
+    C++ 標準: c++11
+    構建工具: cmake make autoconf automake gcc
     
 
-### Installation
+### 安裝
 
     $ git clone https://gitlab.com/zhangbolily/BUtils.git BUtils
     $ cd BUtils
@@ -34,11 +34,11 @@ If you want to use BUtils in your platform, these requirements should be satisfi
     $ make install
     
 
-##### Demonstration build video (click to veiw)
+##### 構建演示視頻（點擊觀看）
 
 [![Build](https://asciinema.org/a/pxITpcCQsCXepW80eHSjB5byF.svg)](https://asciinema.org/a/pxITpcCQsCXepW80eHSjB5byF)
 
-## Running the tests
+## 運行測試
 
     $ cd build
     $ rm -rf ./*
@@ -47,25 +47,25 @@ If you want to use BUtils in your platform, these requirements should be satisfi
     $ bin/tests
     
 
-## Versioning
+## 版本信息
 
-For the versions available, see the [tags on this repository](https://gitlab.com/zhangbolily/BUtils/tags).
+有關可用版本，請參閱此存儲庫上的 [ 標記 ](https://gitlab.com/zhangbolily/BUtils/tags)。
 
-## Roadmap
+## 路線圖
 
-* Performance improvement in the next version.
-* More examples.
-* Pass parameter into timer action.
+* 下一個版本中進行性能提升。
+* 更多例子。
+* 將參數傳遞到定時器動作函數中。
 
-## Authors
+## 作者
 
-* **Ball Chang** - *Build the whole project*
+* **Ball Chang** - *構建整個專案*
 
-## License
+## 許可證
 
-This project is licensed under the MIT License - see the <LICENSE.md> file for details
+該專案是根據麻省理工學院許可證許可 - 有關詳細資訊，請參閱 <LICENSE.md> 。
 
-## Acknowledgments
+## 致謝
 
 * GitLab
 * Travis-CI
