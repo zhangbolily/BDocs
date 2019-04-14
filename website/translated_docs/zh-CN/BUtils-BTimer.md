@@ -12,11 +12,12 @@ title: BTimer
 
 ## 类型
 
-    enum BTimerStatus {
-        Active,
-        Stop
-    };
-    
+```cpp
+enum BTimerStatus {
+    Active,
+    Stop
+};
+```
 
 ## 方法
 
