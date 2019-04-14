@@ -57,8 +57,8 @@ title: BTiming
 
 ### `int64 time() const`
 
-Returns the real time recorded by calling start and stop in microseconds; otherwise returns 0.
+返回通過調用 start 和 stop 記錄的真實時間；其他情況下返回 0。
 
 ### `int64 CPUTime() const`
 
-Returns the CPU time recorded by calling startCPUTiming and stopCPUTiming in microseconds; otherwise returns 0.
+返回通過調用 startCPUTiming 和 stopCPUTiming 記錄的 CPU 時間；其他情況下返回 0。
