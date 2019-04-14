@@ -1,7 +1,6 @@
 ---
-id: BUtils-index
+id: BUtils-home
 title: Overview
-sidebar_label: Overview
 ---
 所有 Ball Chang 项目的基础设施。
 
