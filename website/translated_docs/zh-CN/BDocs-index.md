@@ -1,7 +1,6 @@
 ---
-id: BDocs-index
+id: BDocs-home
 title: About BDocs
-sidebar_label: About BDocs
 ---
 欢迎来到 Ball Chang 的文档！
 
