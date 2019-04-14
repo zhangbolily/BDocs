@@ -52,64 +52,64 @@ title: BTimer
 
 ### `void stop()`
 
-Stop this timer; takes no effects if this timer is expired (timeout occurs).
+停止此定時器；如果此計時器過期（發生超時）， 則不產生任何效果。
 
 ### `bool isActive() const`
 
-Returns true if this timer is running.
+如果此定時器正在運行，則返回 true。
 
 ### `bool isSingleShot() const`
 
-Returns true if interval action is only triggered once.
+如果間隔動作函數只觸發一次，則返回 true。
 
 ### `int32 id() const`
 
-Returns the id of this timer.
+返回此定時器的 id。
 
 ### `uint32 interval() const`
 
-Returns the timeout interval of this timer in milliseconds.
+返回此定時器的超時間隔（以毫秒為單位）。
 
 ### `uint32 timeout() const`
 
-Returns the timeout of this timer in milliseconds.
+返回此定時器的超時時間（以毫秒為單位）。
 
 ### `void setActive(bool _active)`
 
-Takes no effects calling by user.
+使用者調用無效果。
 
 ### `void callOnInterval(std::function<void()> timer_action)`
 
-Set the action that will be triggered after timeout interval.
+設置超時間隔後觸發的動作函數。
 
 ### `void callOnTimeout(std::function<void()> timer_action)`
 
-Set the action that will be triggered after timeout.
+設置超時後觸發的動作函數。
 
 ### `void setInterval(uint32 _interval)`
 
-Set the timeout interval in milliseconds. Default value is 0.
+設置超時間隔（以毫秒爲單位）。 默認值是 0。
 
 ### `void setInterval(std::chrono::milliseconds _interval)`
 
-Set the timeout interval in milliseconds. Default value is 0.
+設置超時間隔（以毫秒爲單位）。 默認值是 0。
 
 ### `void setTimeout(uint32 _timeout)`
 
-Set the timeout in milliseconds. Default value is the maximum number of unsigned int.
+設置超時時間（以毫秒爲單位）。 默認值是最大的無符號 int 。
 
 ### `void setTimeout(std::chrono::milliseconds _timeout)`
 
-Set the timeout in milliseconds. Default value is the maximum number of unsigned int.
+設置超時時間（以毫秒爲單位）。 默認值是最大的無符號 int 。
 
 ### `void setSingleShot(bool singleshot)`
 
-The interval action will be triggered only once if singleshot is true.
+如果 singleshot 是 true，超時間隔動作函數只會被觸發一次。
 
 ### `static uint precision()`
 
-Returns the precision of timer in milliseconds. Default value is 1 millisecond.
+返回此定時器的精度（以毫秒為單位）。 默認值是 1 毫秒。
 
 ### `static void setPrecision(uint)`
 
-Set the timer precision in milliseconds.
+設置定時器精度（以毫秒爲單位）。
